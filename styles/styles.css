@@ -69,10 +69,13 @@ header{
 .banner-title{
     font-size: 4rem;
     font-weight: 700;
-    color:#131313
+    color:#131313;
+    padding-top: 30px;
 }
 .banner-description{
     color: #727272;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .banner img{
     width: 100%;
@@ -92,6 +95,8 @@ header{
 .teams-container{
     display: flex;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .teams-img-container{
@@ -101,15 +106,50 @@ header{
 }
 
 .teams-content{
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 10px 70px;
 }
+
+.teams-content h3,
+p{
+    padding-bottom: 30px;
+}
+
 
 /*feature section style */
 
 .feature-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.feature-content{
+    width: 586px;
+}
+.white-div{
+    width: 514px;
+    border-radius: 8px;
+background: #FFF;
+
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+padding-top: 20px;
+ margin-bottom: 30px;
+}
+.white-div h6{
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.white-div p{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.image-div{
+    height: 90%;
 }
 
 /* facts section style */
@@ -124,11 +164,16 @@ header{
     text-align: center;
     padding: 50px 70px;
 }
+.fact-title{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
 .card-description{
     margin-top: 10px;
 }
 .card-title{
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 /*sponsor section style */
@@ -141,6 +186,10 @@ header{
 .sponsor-content{
     margin-top: 50px;
     text-align: center;
+    padding-bottom: 30px;
+}
+.sponsor-content h2{
+    padding-bottom: 30px;
 }
 
 
