@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    
 }
 img{
     max-width: 100%;
@@ -125,6 +126,11 @@ p{
 .feature-content{
     width: 586px;
 }
+.feature-content h2{
+    border-left: 5px solid #FF900E;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
 .white-div{
     width: 514px;
     border-radius: 8px;
@@ -150,6 +156,35 @@ padding-top: 20px;
 }
 .image-div{
     height: 90%;
+}
+
+.top-pos{
+    text-align: center;
+    padding-top: 20px;
+    width: 300px;
+    height: 150px;
+    border-radius: 8px;
+    background: #FF900E;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
+.year{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+}
+.ex{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+
 }
 
 /* facts section style */
@@ -190,6 +225,22 @@ padding-top: 20px;
 }
 .sponsor-content h2{
     padding-bottom: 30px;
+}
+
+
+/* footer sections style */
+
+.footer{
+    width: 1440px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding-top: 40px;
+}
+footer{
+    margin-bottom: 100px;
 }
 
 
